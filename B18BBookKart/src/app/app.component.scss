@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    color: white;
+    background-color: #3F51B5;
+    position: sticky;
+    font-size: 18px;
+    padding: 18px;
+    font-family:'Roboto', 'Arial Narrow', Arial, sans-serif;
+
+}
+a{
+    color: #ffffff;
+    padding: 6px;
+   text-decoration: none;
+   
+}
+a.active{
+   
+    color: white;
+}
+.icons{
+    float: right;
+}
+a:hover{
+    color: white;
+    background-color: #3D4EAE;
+}
+.search{
+    margin: 0px 20px 0px 200px;
+}

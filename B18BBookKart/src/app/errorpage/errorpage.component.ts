@@ -15,7 +15,5 @@ export class ErrorpageComponent implements OnInit {
     this.urlName = this._router.url
         
   }
-  goToHome(){
-    this._router.navigateByUrl('home');
-  }
+ 
 }

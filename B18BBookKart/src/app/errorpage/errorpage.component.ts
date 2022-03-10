@@ -12,8 +12,8 @@ export class ErrorpageComponent implements OnInit {
   constructor(private _router:Router) { }
 
   ngOnInit(): void {
-    this.urlName = this._router.url;
-        console.log(this._router.url);
+    this.urlName = this._router.url
+        
   }
   goToHome(){
     this._router.navigateByUrl('home');

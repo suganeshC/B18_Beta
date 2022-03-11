@@ -1,1 +1,33 @@
 <p>homepage works!</p>
+<div class="row mt-3 p-4">
+    <div class="col-sm-3"> 
+        <button mat-raised-button color="primary" 
+        (click)="addCart('One Item added to cart','close')">Add to cart</button>
+    </div>
+
+    <div class="col-sm-3">
+         <button mat-raised-button color="primary"
+         (click)="removeCart('Product removed from cart','close')">Remove from cart</button></div>
+
+    <div class="col-sm-3"> 
+        <button mat-raised-button color="primary"
+        (click)="addWishlist('Item added to your wishlist','close')">Add to wishlist</button></div>
+
+    <div class="col-sm-3"> 
+        <button mat-raised-button color="primary"
+        (click)="removeWishlist('Item removed from your wishlist','close')">Remove from wishlist</button></div>
+</div>
+<div class="row mt-3 p-4">
+    <div class="col-sm-3"> 
+        <button mat-raised-button color="primary"
+        (click)="placeOrder('Order placed successfully','close')">place order</button></div>
+
+    <div class="col-sm-3"> 
+        <button mat-raised-button color="primary"
+        (click)="removeOrder('Product removed from order','close')">Product removed</button></div>
+
+    <div class="col-sm-3"> 
+        <button mat-raised-button color="primary"
+        (click)="clearCart('Cart list Cleared','close')">Clear cart</button></div>
+
+</div>
